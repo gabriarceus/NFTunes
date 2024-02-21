@@ -1,0 +1,14 @@
+{
+  "utenti": [
+    {"id": "u100", "nome_utente": "MusicaFan1", "numero_di_NFT": 5, "numero_di_concerti": 2},
+    {"id": "u101","nome_utente": "ConcertGoer2", "numero_di_NFT": 3, "numero_di_concerti": 4},
+    {"id": "u102","nome_utente": "NFTCollector3", "numero_di_NFT": 7, "numero_di_concerti": 1},
+    {"id": "u103","nome_utente": "Melomane4", "numero_di_NFT": 2, "numero_di_concerti": 3},
+    {"id": "u104","nome_utente": "LiveMusicLover5", "numero_di_NFT": 6, "numero_di_concerti": 2},
+    {"id": "u105","nome_utente": "BandFollower6", "numero_di_NFT": 4, "numero_di_concerti": 5},
+    {"id": "u106","nome_utente": "MusicEnthusiast7", "numero_di_NFT": 8, "numero_di_concerti": 3},
+    {"id": "u107","nome_utente": "GigAddict8", "numero_di_NFT": 1, "numero_di_concerti": 4},
+    {"id": "u108","nome_utente": "SongLover9", "numero_di_NFT": 3, "numero_di_concerti": 2},
+    {"id": "u109","nome_utente": "MusicFanatic10", "numero_di_NFT": 7, "numero_di_concerti": 5}
+  ]
+}

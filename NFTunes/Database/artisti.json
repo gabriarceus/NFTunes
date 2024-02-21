@@ -1,0 +1,53 @@
+{
+  "artisti": [
+    {
+      "id": "a10",
+      "nome": "Maneskin",
+      "descrizione": "I Maneskin sono una band rock italiana, noti per la loro vittoria all'Eurovision Song Contest 2021.",
+      "eventi": [
+        {
+          "data": "30/05/2024",
+          "luogo": "Stadio Olimpico, Roma"
+        },
+        {
+          "data": "02/06/2024",
+          "luogo": "Stadio San Siro, Milano"
+        },
+        {
+          "data": "05/06/2024",
+          "luogo": "Stadio Artemio Franchi, Firenze"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "nome": "Shiva",
+      "descrizione": "Shiva è un rapper italiano, noto per il suo stile trap e le sue liriche orecchiabili.",
+      "eventi": [
+        {
+          "data": "10/06/2024",
+          "luogo": "Mediolanum Forum, Milano"
+        },
+        {
+          "data": "16/06/2024",
+          "luogo": "Unipol Arena, Bologna"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "nome": "Anna",
+      "descrizione": "Anna è una cantante italiana, nota per il suo stile pop e la sua voce potente.",
+      "eventi": [
+        {
+          "data": "10/06/2024",
+          "luogo": "Mediolanum Forum, Milano"
+        },
+        {
+          "data": "23/06/2024",
+          "luogo": "Pala Alpitour, Torino"
+        }
+      ]
+    }
+  ]
+}

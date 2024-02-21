@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20579762B5FD4B600C63582 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20579752B5FD4B600C63582 /* TradeView.swift */; };
+		F20579792B5FDFA200C63582 /* TradeChoiceNftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20579782B5FDFA200C63582 /* TradeChoiceNftView.swift */; };
+		F205797B2B60054800C63582 /* NftImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205797A2B60054800C63582 /* NftImageFormat.swift */; };
+		F228207F2B4EA2A400E911DF /* NFTunesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228207E2B4EA2A400E911DF /* NFTunesApp.swift */; };
+		F22820812B4EA2A400E911DF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820802B4EA2A400E911DF /* MainView.swift */; };
+		F22820832B4EA2A600E911DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22820822B4EA2A600E911DF /* Assets.xcassets */; };
+		F22820862B4EA2A600E911DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22820852B4EA2A600E911DF /* Preview Assets.xcassets */; };
+		F22820902B4EB55300E911DF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228208F2B4EB55300E911DF /* ProfileView.swift */; };
+		F22820922B4EB56200E911DF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820912B4EB56200E911DF /* DashboardView.swift */; };
+		F22820942B4EB57600E911DF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820932B4EB57600E911DF /* LoginView.swift */; };
+		F22820962B4EB58A00E911DF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820952B4EB58A00E911DF /* RegisterView.swift */; };
+		F22820982B4EB5F200E911DF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820972B4EB5F200E911DF /* User.swift */; };
+		F228209A2B4EB65C00E911DF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820992B4EB65C00E911DF /* MainViewModel.swift */; };
+		F228209C2B4EB66A00E911DF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228209B2B4EB66A00E911DF /* ProfileViewModel.swift */; };
+		F228209E2B4EB67D00E911DF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228209D2B4EB67D00E911DF /* DashboardViewModel.swift */; };
+		F22820A02B4EB68700E911DF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228209F2B4EB68700E911DF /* LoginViewModel.swift */; };
+		F22820A22B4EB69000E911DF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820A12B4EB69000E911DF /* RegisterViewModel.swift */; };
+		F22820A42B4EB9C900E911DF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820A32B4EB9C900E911DF /* HeaderView.swift */; };
+		F22820A62B4ED32900E911DF /* NFTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820A52B4ED32900E911DF /* NFTButton.swift */; };
+		F22820A82B4EE1FF00E911DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820A72B4EE1FF00E911DF /* Extensions.swift */; };
+		F22820AB2B4EE7E600E911DF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F22820AA2B4EE7E600E911DF /* FirebaseAnalytics */; };
+		F22820AD2B4EE7E600E911DF /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F22820AC2B4EE7E600E911DF /* FirebaseAnalyticsOnDeviceConversion */; };
+		F22820AF2B4EE7E600E911DF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F22820AE2B4EE7E600E911DF /* FirebaseAnalyticsSwift */; };
+		F22820B12B4EE7E600E911DF /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F22820B02B4EE7E600E911DF /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		F22820B32B4EE7E600E911DF /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F22820B22B4EE7E600E911DF /* FirebaseAppCheck */; };
+		F22820B52B4EE7E600E911DF /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F22820B42B4EE7E600E911DF /* FirebaseAppDistribution-Beta */; };
+		F22820B72B4EE7E600E911DF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F22820B62B4EE7E600E911DF /* FirebaseAuth */; };
+		F22820B92B4EE7E600E911DF /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F22820B82B4EE7E600E911DF /* FirebaseAuthCombine-Community */; };
+		F22820BB2B4EE7E600E911DF /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F22820BA2B4EE7E600E911DF /* FirebaseCrashlytics */; };
+		F22820BD2B4EE7E600E911DF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F22820BC2B4EE7E600E911DF /* FirebaseDatabase */; };
+		F22820BF2B4EE7E600E911DF /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F22820BE2B4EE7E600E911DF /* FirebaseDatabaseSwift */; };
+		F22820C12B4EE7E600E911DF /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = F22820C02B4EE7E600E911DF /* FirebaseDynamicLinks */; };
+		F22820C32B4EE7E600E911DF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F22820C22B4EE7E600E911DF /* FirebaseFirestore */; };
+		F22820C52B4EE7E600E911DF /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F22820C42B4EE7E600E911DF /* FirebaseFirestoreCombine-Community */; };
+		F22820C72B4EE7E600E911DF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F22820C62B4EE7E600E911DF /* FirebaseFirestoreSwift */; };
+		F22820C92B4EE7E600E911DF /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = F22820C82B4EE7E600E911DF /* FirebaseFunctions */; };
+		F22820CB2B4EE7E600E911DF /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F22820CA2B4EE7E600E911DF /* FirebaseFunctionsCombine-Community */; };
+		F22820CD2B4EE7E600E911DF /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F22820CC2B4EE7E600E911DF /* FirebaseInAppMessaging-Beta */; };
+		F22820CF2B4EE7E600E911DF /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F22820CE2B4EE7E600E911DF /* FirebaseInAppMessagingSwift-Beta */; };
+		F22820D12B4EE7E600E911DF /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = F22820D02B4EE7E600E911DF /* FirebaseInstallations */; };
+		F22820D32B4EE7E600E911DF /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = F22820D22B4EE7E600E911DF /* FirebaseMLModelDownloader */; };
+		F22820D52B4EE7E600E911DF /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F22820D42B4EE7E600E911DF /* FirebaseMessaging */; };
+		F22820D72B4EE7E600E911DF /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = F22820D62B4EE7E600E911DF /* FirebasePerformance */; };
+		F22820D92B4EE7E600E911DF /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = F22820D82B4EE7E600E911DF /* FirebaseRemoteConfig */; };
+		F22820DB2B4EE7E600E911DF /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F22820DA2B4EE7E600E911DF /* FirebaseRemoteConfigSwift */; };
+		F22820DD2B4EE7E600E911DF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F22820DC2B4EE7E600E911DF /* FirebaseStorage */; };
+		F22820DF2B4EE7E600E911DF /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F22820DE2B4EE7E600E911DF /* FirebaseStorageCombine-Community */; };
+		F22820E12B4EE83A00E911DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F22820E02B4EE83A00E911DF /* GoogleService-Info.plist */; };
+		F22820E42B4EF46B00E911DF /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820E32B4EF46B00E911DF /* WalletView.swift */; };
+		F22820E62B4EF47C00E911DF /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820E52B4EF47C00E911DF /* ArtistsView.swift */; };
+		F22820E82B4EF52500E911DF /* SurveysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820E72B4EF52500E911DF /* SurveysView.swift */; };
+		F22820EB2B4EF57700E911DF /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820EA2B4EF57600E911DF /* WalletViewModel.swift */; };
+		F22820ED2B4EF58A00E911DF /* ArtistUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820EC2B4EF58A00E911DF /* ArtistUserViewModel.swift */; };
+		F22820EF2B4EF59C00E911DF /* SurveysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22820EE2B4EF59C00E911DF /* SurveysViewModel.swift */; };
+		F23A07612B4FE9E4005FD605 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07602B4FE9E4005FD605 /* SettingsView.swift */; };
+		F23A07642B4FEA13005FD605 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07632B4FEA13005FD605 /* SettingsViewModel.swift */; };
+		F23A07672B4FEDFD005FD605 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07662B4FEDFD005FD605 /* NotificationView.swift */; };
+		F23A07692B4FEE3A005FD605 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07682B4FEE3A005FD605 /* NotificationViewModel.swift */; };
+		F23A076E2B500487005FD605 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A076D2B500487005FD605 /* HistoryView.swift */; };
+		F23A07702B503043005FD605 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23A076F2B503043005FD605 /* Launch Screen.storyboard */; };
+		F23A07742B503B84005FD605 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07732B503B84005FD605 /* ImageFormat.swift */; };
+		F23A07762B503E44005FD605 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07752B503E44005FD605 /* SearchView.swift */; };
+		F23A07782B5046FC005FD605 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A07772B5046FC005FD605 /* SearchViewModel.swift */; };
+		F25056422B57DB9D00FBDC7F /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25056412B57DB9D00FBDC7F /* Survey.swift */; };
+		F25056452B57E4C300FBDC7F /* EventUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25056442B57E4C300FBDC7F /* EventUserViewModel.swift */; };
+		F25056472B57E50300FBDC7F /* SurveyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25056462B57E50300FBDC7F /* SurveyUser.swift */; };
+		F25056492B580BBD00FBDC7F /* SurveysDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25056482B580BBD00FBDC7F /* SurveysDetailedView.swift */; };
+		F250564C2B58170300FBDC7F /* SurveysUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250564B2B58170300FBDC7F /* SurveysUserViewModel.swift */; };
+		F250564F2B581FB900FBDC7F /* SurveysGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250564E2B581FB900FBDC7F /* SurveysGraphView.swift */; };
+		F285E3572B5132C400727244 /* volume.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E34D2B5132C400727244 /* volume.json */; };
+		F285E3582B5132C400727244 /* decisioni.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E34E2B5132C400727244 /* decisioni.json */; };
+		F285E3592B5132C400727244 /* artisti.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E34F2B5132C400727244 /* artisti.json */; };
+		F285E35A2B5132C400727244 /* nft.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E3502B5132C400727244 /* nft.json */; };
+		F285E35B2B5132C400727244 /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E3512B5132C400727244 /* credentials.json */; };
+		F285E35C2B5132C400727244 /* history.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E3522B5132C400727244 /* history.json */; };
+		F285E35E2B5132C400727244 /* eventi.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E3552B5132C400727244 /* eventi.json */; };
+		F285E35F2B5132C400727244 /* profili.json in Resources */ = {isa = PBXBuildFile; fileRef = F285E3562B5132C400727244 /* profili.json */; };
+		F285E3612B51413700727244 /* Nft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285E3602B51413700727244 /* Nft.swift */; };
+		F285E3642B514EB200727244 /* NFTRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285E3632B514EB200727244 /* NFTRowView.swift */; };
+		F28BFE062B5960D0001C395B /* KeyboardObserving in Frameworks */ = {isa = PBXBuildFile; productRef = F28BFE052B5960D0001C395B /* KeyboardObserving */; };
+		F28BFE082B596AA1001C395B /* ArtistSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE072B596AA1001C395B /* ArtistSearchView.swift */; };
+		F28BFE0A2B596B92001C395B /* ArtistSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE092B596B92001C395B /* ArtistSearchViewModel.swift */; };
+		F28BFE0D2B59712F001C395B /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE0C2B59712F001C395B /* FriendListView.swift */; };
+		F28BFE102B5981F7001C395B /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE0F2B5981F7001C395B /* FriendViewModel.swift */; };
+		F28BFE152B59852B001C395B /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE142B59852A001C395B /* FriendDetailView.swift */; };
+		F28BFE172B598634001C395B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE162B598634001C395B /* Friend.swift */; };
+		F28BFE192B5987E7001C395B /* FriendUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFE182B5987E7001C395B /* FriendUserViewModel.swift */; };
+		F2A422712B63AD0C0008ACB9 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = F2A422702B63AD0C0008ACB9 /* EffectsLibrary */; };
+		F2A422732B63D3800008ACB9 /* KeyframeAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A422722B63D3800008ACB9 /* KeyframeAnimationViewModel.swift */; };
+		F2B092BD2B723FE100F89169 /* ProfileImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B092BC2B723FE000F89169 /* ProfileImagePicker.swift */; };
+		F2B092BF2B726EFC00F89169 /* ThickDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B092BE2B726EFC00F89169 /* ThickDivider.swift */; };
+		F2B79BEA2B56720400063803 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BE92B56720400063803 /* EventView.swift */; };
+		F2B79BEC2B56722600063803 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BEB2B56722600063803 /* Event.swift */; };
+		F2B79BEE2B56759300063803 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BED2B56759300063803 /* EventViewModel.swift */; };
+		F2B79BF02B56BB3200063803 /* NftUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BEF2B56BB3200063803 /* NftUser.swift */; };
+		F2B79BF22B56BFA600063803 /* NftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BF12B56BFA600063803 /* NftViewModel.swift */; };
+		F2B79BF52B56C94F00063803 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BF42B56C94F00063803 /* Artist.swift */; };
+		F2B79BF72B56C9B200063803 /* ArtistUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BF62B56C9B200063803 /* ArtistUser.swift */; };
+		F2B79BFA2B56CE6000063803 /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BF92B56CE6000063803 /* ArtistDetailView.swift */; };
+		F2B79BFC2B56D9C800063803 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B79BFB2B56D9C800063803 /* ArtistViewModel.swift */; };
+		F2BC22D22B62547C00524833 /* TradeConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC22D12B62547C00524833 /* TradeConfirmView.swift */; };
+		F2BC22D42B6256BF00524833 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC22D32B6256BF00524833 /* TradeViewModel.swift */; };
+		F2BC22D72B629C7400524833 /* KeyframeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC22D62B629C7300524833 /* KeyframeAnimationView.swift */; };
+		F2BC23D92B5532530095ABF1 /* NftUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC23D82B5532530095ABF1 /* NftUserViewModel.swift */; };
+		F2BC23DB2B556B1A0095ABF1 /* NFTGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC23DA2B556B1A0095ABF1 /* NFTGraphView.swift */; };
+		F2BC23DD2B556B740095ABF1 /* DataPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC23DC2B556B730095ABF1 /* DataPoints.swift */; };
+		F2E675AC2B5176D700F2BCF1 /* NFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E675AB2B5176D700F2BCF1 /* NFTView.swift */; };
+		F2E675AE2B517A0F00F2BCF1 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E675AD2B517A0F00F2BCF1 /* DetailHeaderView.swift */; };
+		F2E8E6E62B6D4AAF00CFF37E /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E8E6E52B6D4AAF00CFF37E /* Badge.swift */; };
+		F2F973092B6A476600BE7A3A /* QRGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F973082B6A476600BE7A3A /* QRGenerationView.swift */; };
+		F2F9730B2B6A4BEE00BE7A3A /* QRScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9730A2B6A4BEE00BE7A3A /* QRScanningView.swift */; };
+		F2F9730E2B6A4C7400BE7A3A /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = F2F9730D2B6A4C7400BE7A3A /* CodeScanner */; };
+		F2F973102B6A64E700BE7A3A /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9730F2B6A64E700BE7A3A /* Trade.swift */; };
+		F2FBB05A2B6918D500E36656 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FBB0592B6918D500E36656 /* Notification.swift */; };
+		F2FBB05E2B693F2100E36656 /* NotificationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FBB05D2B693F2100E36656 /* NotificationItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20579752B5FD4B600C63582 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		F20579782B5FDFA200C63582 /* TradeChoiceNftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeChoiceNftView.swift; sourceTree = "<group>"; };
+		F205797A2B60054800C63582 /* NftImageFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftImageFormat.swift; sourceTree = "<group>"; };
+		F228207B2B4EA2A400E911DF /* NFTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F228207E2B4EA2A400E911DF /* NFTunesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTunesApp.swift; sourceTree = "<group>"; };
+		F22820802B4EA2A400E911DF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F22820822B4EA2A600E911DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22820852B4EA2A600E911DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F228208F2B4EB55300E911DF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F22820912B4EB56200E911DF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F22820932B4EB57600E911DF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F22820952B4EB58A00E911DF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		F22820972B4EB5F200E911DF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F22820992B4EB65C00E911DF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F228209B2B4EB66A00E911DF /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F228209D2B4EB67D00E911DF /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F228209F2B4EB68700E911DF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F22820A12B4EB69000E911DF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		F22820A32B4EB9C900E911DF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F22820A52B4ED32900E911DF /* NFTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTButton.swift; sourceTree = "<group>"; };
+		F22820A72B4EE1FF00E911DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F22820E02B4EE83A00E911DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F22820E32B4EF46B00E911DF /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		F22820E52B4EF47C00E911DF /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
+		F22820E72B4EF52500E911DF /* SurveysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysView.swift; sourceTree = "<group>"; };
+		F22820EA2B4EF57600E911DF /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		F22820EC2B4EF58A00E911DF /* ArtistUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistUserViewModel.swift; sourceTree = "<group>"; };
+		F22820EE2B4EF59C00E911DF /* SurveysViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysViewModel.swift; sourceTree = "<group>"; };
+		F23A07602B4FE9E4005FD605 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F23A07632B4FEA13005FD605 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		F23A07662B4FEDFD005FD605 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F23A07682B4FEE3A005FD605 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		F23A076D2B500487005FD605 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F23A076F2B503043005FD605 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F23A07732B503B84005FD605 /* ImageFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormat.swift; sourceTree = "<group>"; };
+		F23A07752B503E44005FD605 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F23A07772B5046FC005FD605 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F25056412B57DB9D00FBDC7F /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		F25056442B57E4C300FBDC7F /* EventUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventUserViewModel.swift; sourceTree = "<group>"; };
+		F25056462B57E50300FBDC7F /* SurveyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyUser.swift; sourceTree = "<group>"; };
+		F25056482B580BBD00FBDC7F /* SurveysDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysDetailedView.swift; sourceTree = "<group>"; };
+		F250564B2B58170300FBDC7F /* SurveysUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysUserViewModel.swift; sourceTree = "<group>"; };
+		F250564E2B581FB900FBDC7F /* SurveysGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysGraphView.swift; sourceTree = "<group>"; };
+		F285E34D2B5132C400727244 /* volume.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volume.json; sourceTree = "<group>"; };
+		F285E34E2B5132C400727244 /* decisioni.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = decisioni.json; sourceTree = "<group>"; };
+		F285E34F2B5132C400727244 /* artisti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artisti.json; sourceTree = "<group>"; };
+		F285E3502B5132C400727244 /* nft.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nft.json; sourceTree = "<group>"; };
+		F285E3512B5132C400727244 /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = credentials.json; sourceTree = "<group>"; };
+		F285E3522B5132C400727244 /* history.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = history.json; sourceTree = "<group>"; };
+		F285E3552B5132C400727244 /* eventi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eventi.json; sourceTree = "<group>"; };
+		F285E3562B5132C400727244 /* profili.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profili.json; sourceTree = "<group>"; };
+		F285E3602B51413700727244 /* Nft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nft.swift; sourceTree = "<group>"; };
+		F285E3632B514EB200727244 /* NFTRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTRowView.swift; sourceTree = "<group>"; };
+		F28BFE072B596AA1001C395B /* ArtistSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchView.swift; sourceTree = "<group>"; };
+		F28BFE092B596B92001C395B /* ArtistSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchViewModel.swift; sourceTree = "<group>"; };
+		F28BFE0C2B59712F001C395B /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
+		F28BFE0F2B5981F7001C395B /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
+		F28BFE142B59852A001C395B /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
+		F28BFE162B598634001C395B /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		F28BFE182B5987E7001C395B /* FriendUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendUserViewModel.swift; sourceTree = "<group>"; };
+		F2A422722B63D3800008ACB9 /* KeyframeAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationViewModel.swift; sourceTree = "<group>"; };
+		F2B092BC2B723FE000F89169 /* ProfileImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImagePicker.swift; sourceTree = "<group>"; };
+		F2B092BE2B726EFC00F89169 /* ThickDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThickDivider.swift; sourceTree = "<group>"; };
+		F2B79BE92B56720400063803 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		F2B79BEB2B56722600063803 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F2B79BED2B56759300063803 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		F2B79BEF2B56BB3200063803 /* NftUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftUser.swift; sourceTree = "<group>"; };
+		F2B79BF12B56BFA600063803 /* NftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftViewModel.swift; sourceTree = "<group>"; };
+		F2B79BF42B56C94F00063803 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		F2B79BF62B56C9B200063803 /* ArtistUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistUser.swift; sourceTree = "<group>"; };
+		F2B79BF92B56CE6000063803 /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
+		F2B79BFB2B56D9C800063803 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		F2BC22D12B62547C00524833 /* TradeConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeConfirmView.swift; sourceTree = "<group>"; };
+		F2BC22D32B6256BF00524833 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		F2BC22D62B629C7300524833 /* KeyframeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationView.swift; sourceTree = "<group>"; };
+		F2BC23D82B5532530095ABF1 /* NftUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftUserViewModel.swift; sourceTree = "<group>"; };
+		F2BC23DA2B556B1A0095ABF1 /* NFTGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTGraphView.swift; sourceTree = "<group>"; };
+		F2BC23DC2B556B730095ABF1 /* DataPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoints.swift; sourceTree = "<group>"; };
+		F2E45DBD2B68EAE4004A3FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2E675AB2B5176D700F2BCF1 /* NFTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTView.swift; sourceTree = "<group>"; };
+		F2E675AD2B517A0F00F2BCF1 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		F2E8E6E52B6D4AAF00CFF37E /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		F2F973082B6A476600BE7A3A /* QRGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGenerationView.swift; sourceTree = "<group>"; };
+		F2F9730A2B6A4BEE00BE7A3A /* QRScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanningView.swift; sourceTree = "<group>"; };
+		F2F9730F2B6A64E700BE7A3A /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		F2FBB0592B6918D500E36656 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		F2FBB05D2B693F2100E36656 /* NotificationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22820782B4EA2A400E911DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22820BD2B4EE7E600E911DF /* FirebaseDatabase in Frameworks */,
+				F22820CB2B4EE7E600E911DF /* FirebaseFunctionsCombine-Community in Frameworks */,
+				F22820C32B4EE7E600E911DF /* FirebaseFirestore in Frameworks */,
+				F22820AF2B4EE7E600E911DF /* FirebaseAnalyticsSwift in Frameworks */,
+				F22820AB2B4EE7E600E911DF /* FirebaseAnalytics in Frameworks */,
+				F22820AD2B4EE7E600E911DF /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				F22820D32B4EE7E600E911DF /* FirebaseMLModelDownloader in Frameworks */,
+				F22820C72B4EE7E600E911DF /* FirebaseFirestoreSwift in Frameworks */,
+				F22820B32B4EE7E600E911DF /* FirebaseAppCheck in Frameworks */,
+				F22820B12B4EE7E600E911DF /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				F22820B72B4EE7E600E911DF /* FirebaseAuth in Frameworks */,
+				F22820BB2B4EE7E600E911DF /* FirebaseCrashlytics in Frameworks */,
+				F22820DB2B4EE7E600E911DF /* FirebaseRemoteConfigSwift in Frameworks */,
+				F22820CD2B4EE7E600E911DF /* FirebaseInAppMessaging-Beta in Frameworks */,
+				F2F9730E2B6A4C7400BE7A3A /* CodeScanner in Frameworks */,
+				F22820BF2B4EE7E600E911DF /* FirebaseDatabaseSwift in Frameworks */,
+				F22820C92B4EE7E600E911DF /* FirebaseFunctions in Frameworks */,
+				F22820DF2B4EE7E600E911DF /* FirebaseStorageCombine-Community in Frameworks */,
+				F28BFE062B5960D0001C395B /* KeyboardObserving in Frameworks */,
+				F22820D92B4EE7E600E911DF /* FirebaseRemoteConfig in Frameworks */,
+				F22820B52B4EE7E600E911DF /* FirebaseAppDistribution-Beta in Frameworks */,
+				F22820B92B4EE7E600E911DF /* FirebaseAuthCombine-Community in Frameworks */,
+				F22820D72B4EE7E600E911DF /* FirebasePerformance in Frameworks */,
+				F2A422712B63AD0C0008ACB9 /* EffectsLibrary in Frameworks */,
+				F22820CF2B4EE7E600E911DF /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				F22820DD2B4EE7E600E911DF /* FirebaseStorage in Frameworks */,
+				F22820C12B4EE7E600E911DF /* FirebaseDynamicLinks in Frameworks */,
+				F22820C52B4EE7E600E911DF /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F22820D52B4EE7E600E911DF /* FirebaseMessaging in Frameworks */,
+				F22820D12B4EE7E600E911DF /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20579772B5FDE4F00C63582 /* TradeViews */ = {
+			isa = PBXGroup;
+			children = (
+				F20579752B5FD4B600C63582 /* TradeView.swift */,
+				F20579782B5FDFA200C63582 /* TradeChoiceNftView.swift */,
+				F2BC22D12B62547C00524833 /* TradeConfirmView.swift */,
+				F2F973072B6A473700BE7A3A /* QRCodeViews */,
+				F2BC22D52B629C4400524833 /* TradeAnimationViews */,
+			);
+			path = TradeViews;
+			sourceTree = "<group>";
+		};
+		F22820722B4EA2A400E911DF = {
+			isa = PBXGroup;
+			children = (
+				F228207D2B4EA2A400E911DF /* NFTunes */,
+				F228207C2B4EA2A400E911DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F228207C2B4EA2A400E911DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F228207B2B4EA2A400E911DF /* NFTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F228207D2B4EA2A400E911DF /* NFTunes */ = {
+			isa = PBXGroup;
+			children = (
+				F2E45DBD2B68EAE4004A3FA2 /* Info.plist */,
+				F285E34C2B5132C400727244 /* Database */,
+				F22820E02B4EE83A00E911DF /* GoogleService-Info.plist */,
+				F228207E2B4EA2A400E911DF /* NFTunesApp.swift */,
+				F22820A72B4EE1FF00E911DF /* Extensions.swift */,
+				F23A076F2B503043005FD605 /* Launch Screen.storyboard */,
+				F22820822B4EA2A600E911DF /* Assets.xcassets */,
+				F228208E2B4EB4C100E911DF /* Models */,
+				F228208D2B4EB4B000E911DF /* ViewModels */,
+				F228208C2B4EA7AB00E911DF /* Views */,
+				F22820842B4EA2A600E911DF /* Preview Content */,
+			);
+			path = NFTunes;
+			sourceTree = "<group>";
+		};
+		F22820842B4EA2A600E911DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22820852B4EA2A600E911DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F228208C2B4EA7AB00E911DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F23A07652B4FEAC4005FD605 /* Resources */,
+				F22820802B4EA2A400E911DF /* MainView.swift */,
+				F22820932B4EB57600E911DF /* LoginView.swift */,
+				F22820952B4EB58A00E911DF /* RegisterView.swift */,
+				F22820E22B4EF41800E911DF /* LoggedInViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F228208D2B4EB4B000E911DF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F22820992B4EB65C00E911DF /* MainViewModel.swift */,
+				F228209F2B4EB68700E911DF /* LoginViewModel.swift */,
+				F22820A12B4EB69000E911DF /* RegisterViewModel.swift */,
+				F22820E92B4EF53E00E911DF /* LoggedInViewModels */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F228208E2B4EB4C100E911DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F22820972B4EB5F200E911DF /* User.swift */,
+				F2BC23DC2B556B730095ABF1 /* DataPoints.swift */,
+				F285E3602B51413700727244 /* Nft.swift */,
+				F2B79BEB2B56722600063803 /* Event.swift */,
+				F2B79BF42B56C94F00063803 /* Artist.swift */,
+				F25056412B57DB9D00FBDC7F /* Survey.swift */,
+				F28BFE112B5982B0001C395B /* UserModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F22820E22B4EF41800E911DF /* LoggedInViews */ = {
+			isa = PBXGroup;
+			children = (
+				F23A075F2B4FE9C3005FD605 /* DashboardViews */,
+				F285E3652B5152E400727244 /* ProfileViews */,
+				F285E3622B514E8700727244 /* WalletViews */,
+				F2B79BE82B5671E700063803 /* EventViews */,
+				F2B79BF32B56C8AD00063803 /* ArtistViews */,
+				F250564D2B581F9200FBDC7F /* SurveyViews */,
+				F28BFE0B2B5970F3001C395B /* FriendView */,
+			);
+			path = LoggedInViews;
+			sourceTree = "<group>";
+		};
+		F22820E92B4EF53E00E911DF /* LoggedInViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F23A07622B4FE9EE005FD605 /* DashboardViewModels */,
+				F23ADA9C2B5A755E00EBC00E /* HomeViewModels */,
+				F2BC23D72B55322F0095ABF1 /* WalletViewModels */,
+				F2B79BF82B56CB4400063803 /* ArtistViewModels */,
+				F25056432B57E4A200FBDC7F /* EventViewModels */,
+				F250564A2B58164F00FBDC7F /* SurveysViewModels */,
+				F28BFE0E2B5981BE001C395B /* FriendViewModels */,
+			);
+			path = LoggedInViewModels;
+			sourceTree = "<group>";
+		};
+		F23A075F2B4FE9C3005FD605 /* DashboardViews */ = {
+			isa = PBXGroup;
+			children = (
+				F22820912B4EB56200E911DF /* DashboardView.swift */,
+				F23A07602B4FE9E4005FD605 /* SettingsView.swift */,
+			);
+			path = DashboardViews;
+			sourceTree = "<group>";
+		};
+		F23A07622B4FE9EE005FD605 /* DashboardViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F228209D2B4EB67D00E911DF /* DashboardViewModel.swift */,
+				F23A07632B4FEA13005FD605 /* SettingsViewModel.swift */,
+			);
+			path = DashboardViewModels;
+			sourceTree = "<group>";
+		};
+		F23A07652B4FEAC4005FD605 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F22820A52B4ED32900E911DF /* NFTButton.swift */,
+				F22820A32B4EB9C900E911DF /* HeaderView.swift */,
+				F23A07732B503B84005FD605 /* ImageFormat.swift */,
+				F205797A2B60054800C63582 /* NftImageFormat.swift */,
+				F2E675AD2B517A0F00F2BCF1 /* DetailHeaderView.swift */,
+				F2E8E6E52B6D4AAF00CFF37E /* Badge.swift */,
+				F2B092BE2B726EFC00F89169 /* ThickDivider.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F23ADA9C2B5A755E00EBC00E /* HomeViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F228209B2B4EB66A00E911DF /* ProfileViewModel.swift */,
+				F23A07682B4FEE3A005FD605 /* NotificationViewModel.swift */,
+			);
+			path = HomeViewModels;
+			sourceTree = "<group>";
+		};
+		F25056432B57E4A200FBDC7F /* EventViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2B79BED2B56759300063803 /* EventViewModel.swift */,
+				F25056442B57E4C300FBDC7F /* EventUserViewModel.swift */,
+			);
+			path = EventViewModels;
+			sourceTree = "<group>";
+		};
+		F250564A2B58164F00FBDC7F /* SurveysViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F22820EE2B4EF59C00E911DF /* SurveysViewModel.swift */,
+				F250564B2B58170300FBDC7F /* SurveysUserViewModel.swift */,
+			);
+			path = SurveysViewModels;
+			sourceTree = "<group>";
+		};
+		F250564D2B581F9200FBDC7F /* SurveyViews */ = {
+			isa = PBXGroup;
+			children = (
+				F22820E72B4EF52500E911DF /* SurveysView.swift */,
+				F25056482B580BBD00FBDC7F /* SurveysDetailedView.swift */,
+				F250564E2B581FB900FBDC7F /* SurveysGraphView.swift */,
+			);
+			path = SurveyViews;
+			sourceTree = "<group>";
+		};
+		F285E34C2B5132C400727244 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F285E34D2B5132C400727244 /* volume.json */,
+				F285E34E2B5132C400727244 /* decisioni.json */,
+				F285E34F2B5132C400727244 /* artisti.json */,
+				F285E3502B5132C400727244 /* nft.json */,
+				F285E3512B5132C400727244 /* credentials.json */,
+				F285E3522B5132C400727244 /* history.json */,
+				F285E3552B5132C400727244 /* eventi.json */,
+				F285E3562B5132C400727244 /* profili.json */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F285E3622B514E8700727244 /* WalletViews */ = {
+			isa = PBXGroup;
+			children = (
+				F22820E32B4EF46B00E911DF /* WalletView.swift */,
+				F285E3632B514EB200727244 /* NFTRowView.swift */,
+				F2E675AB2B5176D700F2BCF1 /* NFTView.swift */,
+				F2BC23DA2B556B1A0095ABF1 /* NFTGraphView.swift */,
+				F20579772B5FDE4F00C63582 /* TradeViews */,
+			);
+			path = WalletViews;
+			sourceTree = "<group>";
+		};
+		F285E3652B5152E400727244 /* ProfileViews */ = {
+			isa = PBXGroup;
+			children = (
+				F228208F2B4EB55300E911DF /* ProfileView.swift */,
+				F23A07662B4FEDFD005FD605 /* NotificationView.swift */,
+				F23A076D2B500487005FD605 /* HistoryView.swift */,
+				F2FBB05D2B693F2100E36656 /* NotificationItemView.swift */,
+				F2B092BC2B723FE000F89169 /* ProfileImagePicker.swift */,
+			);
+			path = ProfileViews;
+			sourceTree = "<group>";
+		};
+		F28BFE0B2B5970F3001C395B /* FriendView */ = {
+			isa = PBXGroup;
+			children = (
+				F28BFE0C2B59712F001C395B /* FriendListView.swift */,
+				F28BFE142B59852A001C395B /* FriendDetailView.swift */,
+				F23A07752B503E44005FD605 /* SearchView.swift */,
+			);
+			path = FriendView;
+			sourceTree = "<group>";
+		};
+		F28BFE0E2B5981BE001C395B /* FriendViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F28BFE0F2B5981F7001C395B /* FriendViewModel.swift */,
+				F28BFE182B5987E7001C395B /* FriendUserViewModel.swift */,
+				F23A07772B5046FC005FD605 /* SearchViewModel.swift */,
+			);
+			path = FriendViewModels;
+			sourceTree = "<group>";
+		};
+		F28BFE112B5982B0001C395B /* UserModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9730F2B6A64E700BE7A3A /* Trade.swift */,
+				F28BFE162B598634001C395B /* Friend.swift */,
+				F2B79BEF2B56BB3200063803 /* NftUser.swift */,
+				F2B79BF62B56C9B200063803 /* ArtistUser.swift */,
+				F25056462B57E50300FBDC7F /* SurveyUser.swift */,
+				F2FBB0592B6918D500E36656 /* Notification.swift */,
+			);
+			path = UserModels;
+			sourceTree = "<group>";
+		};
+		F2B79BE82B5671E700063803 /* EventViews */ = {
+			isa = PBXGroup;
+			children = (
+				F2B79BE92B56720400063803 /* EventView.swift */,
+			);
+			path = EventViews;
+			sourceTree = "<group>";
+		};
+		F2B79BF32B56C8AD00063803 /* ArtistViews */ = {
+			isa = PBXGroup;
+			children = (
+				F22820E52B4EF47C00E911DF /* ArtistsView.swift */,
+				F2B79BF92B56CE6000063803 /* ArtistDetailView.swift */,
+				F28BFE072B596AA1001C395B /* ArtistSearchView.swift */,
+			);
+			path = ArtistViews;
+			sourceTree = "<group>";
+		};
+		F2B79BF82B56CB4400063803 /* ArtistViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2B79BFB2B56D9C800063803 /* ArtistViewModel.swift */,
+				F22820EC2B4EF58A00E911DF /* ArtistUserViewModel.swift */,
+				F28BFE092B596B92001C395B /* ArtistSearchViewModel.swift */,
+			);
+			path = ArtistViewModels;
+			sourceTree = "<group>";
+		};
+		F2BC22D52B629C4400524833 /* TradeAnimationViews */ = {
+			isa = PBXGroup;
+			children = (
+				F2BC22D62B629C7300524833 /* KeyframeAnimationView.swift */,
+			);
+			path = TradeAnimationViews;
+			sourceTree = "<group>";
+		};
+		F2BC23D72B55322F0095ABF1 /* WalletViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F22820EA2B4EF57600E911DF /* WalletViewModel.swift */,
+				F2BC23D82B5532530095ABF1 /* NftUserViewModel.swift */,
+				F2B79BF12B56BFA600063803 /* NftViewModel.swift */,
+				F2BC22D32B6256BF00524833 /* TradeViewModel.swift */,
+				F2A422722B63D3800008ACB9 /* KeyframeAnimationViewModel.swift */,
+			);
+			path = WalletViewModels;
+			sourceTree = "<group>";
+		};
+		F2F973072B6A473700BE7A3A /* QRCodeViews */ = {
+			isa = PBXGroup;
+			children = (
+				F2F973082B6A476600BE7A3A /* QRGenerationView.swift */,
+				F2F9730A2B6A4BEE00BE7A3A /* QRScanningView.swift */,
+			);
+			path = QRCodeViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F228207A2B4EA2A400E911DF /* NFTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22820892B4EA2A600E911DF /* Build configuration list for PBXNativeTarget "NFTunes" */;
+			buildPhases = (
+				F22820772B4EA2A400E911DF /* Sources */,
+				F22820782B4EA2A400E911DF /* Frameworks */,
+				F22820792B4EA2A400E911DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFTunes;
+			packageProductDependencies = (
+				F22820AA2B4EE7E600E911DF /* FirebaseAnalytics */,
+				F22820AC2B4EE7E600E911DF /* FirebaseAnalyticsOnDeviceConversion */,
+				F22820AE2B4EE7E600E911DF /* FirebaseAnalyticsSwift */,
+				F22820B02B4EE7E600E911DF /* FirebaseAnalyticsWithoutAdIdSupport */,
+				F22820B22B4EE7E600E911DF /* FirebaseAppCheck */,
+				F22820B42B4EE7E600E911DF /* FirebaseAppDistribution-Beta */,
+				F22820B62B4EE7E600E911DF /* FirebaseAuth */,
+				F22820B82B4EE7E600E911DF /* FirebaseAuthCombine-Community */,
+				F22820BA2B4EE7E600E911DF /* FirebaseCrashlytics */,
+				F22820BC2B4EE7E600E911DF /* FirebaseDatabase */,
+				F22820BE2B4EE7E600E911DF /* FirebaseDatabaseSwift */,
+				F22820C02B4EE7E600E911DF /* FirebaseDynamicLinks */,
+				F22820C22B4EE7E600E911DF /* FirebaseFirestore */,
+				F22820C42B4EE7E600E911DF /* FirebaseFirestoreCombine-Community */,
+				F22820C62B4EE7E600E911DF /* FirebaseFirestoreSwift */,
+				F22820C82B4EE7E600E911DF /* FirebaseFunctions */,
+				F22820CA2B4EE7E600E911DF /* FirebaseFunctionsCombine-Community */,
+				F22820CC2B4EE7E600E911DF /* FirebaseInAppMessaging-Beta */,
+				F22820CE2B4EE7E600E911DF /* FirebaseInAppMessagingSwift-Beta */,
+				F22820D02B4EE7E600E911DF /* FirebaseInstallations */,
+				F22820D22B4EE7E600E911DF /* FirebaseMLModelDownloader */,
+				F22820D42B4EE7E600E911DF /* FirebaseMessaging */,
+				F22820D62B4EE7E600E911DF /* FirebasePerformance */,
+				F22820D82B4EE7E600E911DF /* FirebaseRemoteConfig */,
+				F22820DA2B4EE7E600E911DF /* FirebaseRemoteConfigSwift */,
+				F22820DC2B4EE7E600E911DF /* FirebaseStorage */,
+				F22820DE2B4EE7E600E911DF /* FirebaseStorageCombine-Community */,
+				F28BFE052B5960D0001C395B /* KeyboardObserving */,
+				F2A422702B63AD0C0008ACB9 /* EffectsLibrary */,
+				F2F9730D2B6A4C7400BE7A3A /* CodeScanner */,
+			);
+			productName = NFTunes;
+			productReference = F228207B2B4EA2A400E911DF /* NFTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22820732B4EA2A400E911DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F228207A2B4EA2A400E911DF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F22820762B4EA2A400E911DF /* Build configuration list for PBXProject "NFTunes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = F22820722B4EA2A400E911DF;
+			packageReferences = (
+				F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F28BFE042B5960D0001C395B /* XCRemoteSwiftPackageReference "KeyboardObserving" */,
+				F2A4226F2B63AD0C0008ACB9 /* XCRemoteSwiftPackageReference "effects-library" */,
+				F2F9730C2B6A4C7400BE7A3A /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = F228207C2B4EA2A400E911DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F228207A2B4EA2A400E911DF /* NFTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22820792B4EA2A400E911DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285E35B2B5132C400727244 /* credentials.json in Resources */,
+				F285E35A2B5132C400727244 /* nft.json in Resources */,
+				F285E35F2B5132C400727244 /* profili.json in Resources */,
+				F285E35E2B5132C400727244 /* eventi.json in Resources */,
+				F285E3572B5132C400727244 /* volume.json in Resources */,
+				F285E3582B5132C400727244 /* decisioni.json in Resources */,
+				F22820862B4EA2A600E911DF /* Preview Assets.xcassets in Resources */,
+				F22820832B4EA2A600E911DF /* Assets.xcassets in Resources */,
+				F23A07702B503043005FD605 /* Launch Screen.storyboard in Resources */,
+				F22820E12B4EE83A00E911DF /* GoogleService-Info.plist in Resources */,
+				F285E35C2B5132C400727244 /* history.json in Resources */,
+				F285E3592B5132C400727244 /* artisti.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22820772B4EA2A400E911DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F228209E2B4EB67D00E911DF /* DashboardViewModel.swift in Sources */,
+				F25056452B57E4C300FBDC7F /* EventUserViewModel.swift in Sources */,
+				F2FBB05A2B6918D500E36656 /* Notification.swift in Sources */,
+				F23A07642B4FEA13005FD605 /* SettingsViewModel.swift in Sources */,
+				F22820812B4EA2A400E911DF /* MainView.swift in Sources */,
+				F23A07762B503E44005FD605 /* SearchView.swift in Sources */,
+				F22820EB2B4EF57700E911DF /* WalletViewModel.swift in Sources */,
+				F2B79BF22B56BFA600063803 /* NftViewModel.swift in Sources */,
+				F23A07742B503B84005FD605 /* ImageFormat.swift in Sources */,
+				F2BC23DB2B556B1A0095ABF1 /* NFTGraphView.swift in Sources */,
+				F23A07782B5046FC005FD605 /* SearchViewModel.swift in Sources */,
+				F22820A62B4ED32900E911DF /* NFTButton.swift in Sources */,
+				F2B79BF52B56C94F00063803 /* Artist.swift in Sources */,
+				F22820E62B4EF47C00E911DF /* ArtistsView.swift in Sources */,
+				F2B79BFC2B56D9C800063803 /* ArtistViewModel.swift in Sources */,
+				F22820A02B4EB68700E911DF /* LoginViewModel.swift in Sources */,
+				F23A076E2B500487005FD605 /* HistoryView.swift in Sources */,
+				F22820902B4EB55300E911DF /* ProfileView.swift in Sources */,
+				F250564C2B58170300FBDC7F /* SurveysUserViewModel.swift in Sources */,
+				F2F973092B6A476600BE7A3A /* QRGenerationView.swift in Sources */,
+				F285E3612B51413700727244 /* Nft.swift in Sources */,
+				F250564F2B581FB900FBDC7F /* SurveysGraphView.swift in Sources */,
+				F2F973102B6A64E700BE7A3A /* Trade.swift in Sources */,
+				F2BC22D72B629C7400524833 /* KeyframeAnimationView.swift in Sources */,
+				F22820ED2B4EF58A00E911DF /* ArtistUserViewModel.swift in Sources */,
+				F2E8E6E62B6D4AAF00CFF37E /* Badge.swift in Sources */,
+				F2B79BEE2B56759300063803 /* EventViewModel.swift in Sources */,
+				F2B79BEA2B56720400063803 /* EventView.swift in Sources */,
+				F2A422732B63D3800008ACB9 /* KeyframeAnimationViewModel.swift in Sources */,
+				F22820922B4EB56200E911DF /* DashboardView.swift in Sources */,
+				F25056422B57DB9D00FBDC7F /* Survey.swift in Sources */,
+				F22820E82B4EF52500E911DF /* SurveysView.swift in Sources */,
+				F28BFE172B598634001C395B /* Friend.swift in Sources */,
+				F23A07672B4FEDFD005FD605 /* NotificationView.swift in Sources */,
+				F2B79BF02B56BB3200063803 /* NftUser.swift in Sources */,
+				F28BFE0A2B596B92001C395B /* ArtistSearchViewModel.swift in Sources */,
+				F228209C2B4EB66A00E911DF /* ProfileViewModel.swift in Sources */,
+				F28BFE152B59852B001C395B /* FriendDetailView.swift in Sources */,
+				F20579762B5FD4B600C63582 /* TradeView.swift in Sources */,
+				F2BC23D92B5532530095ABF1 /* NftUserViewModel.swift in Sources */,
+				F2E675AE2B517A0F00F2BCF1 /* DetailHeaderView.swift in Sources */,
+				F22820962B4EB58A00E911DF /* RegisterView.swift in Sources */,
+				F2B79BEC2B56722600063803 /* Event.swift in Sources */,
+				F28BFE192B5987E7001C395B /* FriendUserViewModel.swift in Sources */,
+				F25056472B57E50300FBDC7F /* SurveyUser.swift in Sources */,
+				F2B092BD2B723FE100F89169 /* ProfileImagePicker.swift in Sources */,
+				F22820A22B4EB69000E911DF /* RegisterViewModel.swift in Sources */,
+				F22820942B4EB57600E911DF /* LoginView.swift in Sources */,
+				F20579792B5FDFA200C63582 /* TradeChoiceNftView.swift in Sources */,
+				F2BC22D42B6256BF00524833 /* TradeViewModel.swift in Sources */,
+				F28BFE0D2B59712F001C395B /* FriendListView.swift in Sources */,
+				F22820A82B4EE1FF00E911DF /* Extensions.swift in Sources */,
+				F205797B2B60054800C63582 /* NftImageFormat.swift in Sources */,
+				F2B79BFA2B56CE6000063803 /* ArtistDetailView.swift in Sources */,
+				F2E675AC2B5176D700F2BCF1 /* NFTView.swift in Sources */,
+				F228207F2B4EA2A400E911DF /* NFTunesApp.swift in Sources */,
+				F22820EF2B4EF59C00E911DF /* SurveysViewModel.swift in Sources */,
+				F2FBB05E2B693F2100E36656 /* NotificationItemView.swift in Sources */,
+				F22820982B4EB5F200E911DF /* User.swift in Sources */,
+				F2BC23DD2B556B740095ABF1 /* DataPoints.swift in Sources */,
+				F285E3642B514EB200727244 /* NFTRowView.swift in Sources */,
+				F28BFE102B5981F7001C395B /* FriendViewModel.swift in Sources */,
+				F2F9730B2B6A4BEE00BE7A3A /* QRScanningView.swift in Sources */,
+				F28BFE082B596AA1001C395B /* ArtistSearchView.swift in Sources */,
+				F2BC22D22B62547C00524833 /* TradeConfirmView.swift in Sources */,
+				F228209A2B4EB65C00E911DF /* MainViewModel.swift in Sources */,
+				F25056492B580BBD00FBDC7F /* SurveysDetailedView.swift in Sources */,
+				F2B092BF2B726EFC00F89169 /* ThickDivider.swift in Sources */,
+				F2B79BF72B56C9B200063803 /* ArtistUser.swift in Sources */,
+				F23A07692B4FEE3A005FD605 /* NotificationViewModel.swift in Sources */,
+				F22820A42B4EB9C900E911DF /* HeaderView.swift in Sources */,
+				F22820E42B4EF46B00E911DF /* WalletView.swift in Sources */,
+				F23A07612B4FE9E4005FD605 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F22820872B4EA2A600E911DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22820882B4EA2A600E911DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F228208A2B4EA2A600E911DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFTunes/Preview Content\"";
+				DEVELOPMENT_TEAM = KXXPMZQ426;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTunes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NFTunes;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Serve per scannerizzare i codici QR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gabriele.gortani.NFTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F228208B2B4EA2A600E911DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFTunes/Preview Content\"";
+				DEVELOPMENT_TEAM = KXXPMZQ426;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTunes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NFTunes;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Serve per scannerizzare i codici QR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gabriele.gortani.NFTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22820762B4EA2A400E911DF /* Build configuration list for PBXProject "NFTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22820872B4EA2A600E911DF /* Debug */,
+				F22820882B4EA2A600E911DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22820892B4EA2A600E911DF /* Build configuration list for PBXNativeTarget "NFTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F228208A2B4EA2A600E911DF /* Debug */,
+				F228208B2B4EA2A600E911DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+		F28BFE042B5960D0001C395B /* XCRemoteSwiftPackageReference "KeyboardObserving" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nickffox/KeyboardObserving";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F2A4226F2B63AD0C0008ACB9 /* XCRemoteSwiftPackageReference "effects-library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/effects-library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F2F9730C2B6A4C7400BE7A3A /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F22820AA2B4EE7E600E911DF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F22820AC2B4EE7E600E911DF /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		F22820AE2B4EE7E600E911DF /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		F22820B02B4EE7E600E911DF /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		F22820B22B4EE7E600E911DF /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		F22820B42B4EE7E600E911DF /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		F22820B62B4EE7E600E911DF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F22820B82B4EE7E600E911DF /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		F22820BA2B4EE7E600E911DF /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		F22820BC2B4EE7E600E911DF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F22820BE2B4EE7E600E911DF /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		F22820C02B4EE7E600E911DF /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		F22820C22B4EE7E600E911DF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F22820C42B4EE7E600E911DF /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F22820C62B4EE7E600E911DF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F22820C82B4EE7E600E911DF /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		F22820CA2B4EE7E600E911DF /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		F22820CC2B4EE7E600E911DF /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		F22820CE2B4EE7E600E911DF /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		F22820D02B4EE7E600E911DF /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		F22820D22B4EE7E600E911DF /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		F22820D42B4EE7E600E911DF /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		F22820D62B4EE7E600E911DF /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		F22820D82B4EE7E600E911DF /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		F22820DA2B4EE7E600E911DF /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		F22820DC2B4EE7E600E911DF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F22820DE2B4EE7E600E911DF /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22820A92B4EE7E600E911DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		F28BFE052B5960D0001C395B /* KeyboardObserving */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F28BFE042B5960D0001C395B /* XCRemoteSwiftPackageReference "KeyboardObserving" */;
+			productName = KeyboardObserving;
+		};
+		F2A422702B63AD0C0008ACB9 /* EffectsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2A4226F2B63AD0C0008ACB9 /* XCRemoteSwiftPackageReference "effects-library" */;
+			productName = EffectsLibrary;
+		};
+		F2F9730D2B6A4C7400BE7A3A /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2F9730C2B6A4C7400BE7A3A /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F22820732B4EA2A400E911DF /* Project object */;
+}

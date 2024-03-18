@@ -17,3 +17,9 @@ The final version of this app has a fully working user interface with interactiv
 - Filter items by favorite
 - Exchange two items from two collections of two different users
 - Request and accept of friend requests
+
+## Screenshots
+
+Dashboard                  |  NFT list                 |  Survey
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="images/Dashboard.PNG" width="300">  |  <img src="images/NFT.PNG" width="300">  |  <img src="images/Sondaggio.PNG" width="300">
